@@ -4,7 +4,7 @@ from elasticsearch import Elasticsearch
 from uuid import uuid4
 import json
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "insert you open ai key here"
 from langchain.llms import OpenAI
 llm = OpenAI(temperature=0.95)
 
